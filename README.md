@@ -7,9 +7,7 @@
 [![Total Downloads](https://img.shields.io/packagist/dt/cendekia/nova-setting-tool.svg?style=flat-square)](https://packagist.org/packages/cendekia/nova-setting-tool)
 
 
-This is where your description should go. Try and limit it to a paragraph or two.
-
-Add a screenshot of the tool here.
+![Screenshot](https://novapackages.com//storage/screenshots/hHicZudoRFkJn2hTYg9EPpRAGtxOwvYoMlH5DmzX.png)
 
 ## Installation
 
