@@ -1,0 +1,51 @@
+{
+    "name": "cendekia/nova-setting-tool",
+    "description": "An app setting manager tool for laravel nova",
+    "keywords": [
+        "laravel",
+        "nova",
+        "tool",
+        "setting"
+    ],
+    "homepage": "https://github.com/cendekia/nova-setting-tool",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cendekia Pramana Putra",
+            "email": "me@cendekiapp.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "laravel/nova": "~1.0",
+        "unisharp/laravel-settings": "^2.0",
+        "doctrine/dbal": "^2.8"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^3.6",
+        "phpunit/phpunit": "7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cendekia\\SettingTool\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Cendekia\\SettingTool\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Cendekia\\SettingTool\\ToolServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
