@@ -113,6 +113,8 @@
 </template>
 
 <script>
+
+
 const setting = {
     name: null,
     copyright: {
@@ -162,10 +164,7 @@ export default {
                         onComplete : () => window.location.reload(true)
                     })
                 })
-                .catch(() => {
-                    this.error = true
-                    this.$toasted.error(response.data.message)
-                })
+                .catch(() => this.error = true)
         },
         updateSetting() {
             Nova.request().put("/nova-vendor/setting-tool/update-setting", {app: this.app, admin: this.admin})
@@ -178,10 +177,7 @@ export default {
                         onComplete : () => window.location.reload(true)
                     })
                 })
-                .catch(() => {
-                    this.error = true
-                    this.$toasted.error(response.data.message)
-                })
+                .catch(() => this.error = true)
         }
     }
 }
