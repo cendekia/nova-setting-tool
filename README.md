@@ -7,9 +7,7 @@
 [![Total Downloads](https://img.shields.io/packagist/dt/cendekia/nova-setting-tool.svg?style=flat-square)](https://packagist.org/packages/cendekia/nova-setting-tool)
 
 
-This is where your description should go. Try and limit it to a paragraph or two.
-
-Add a screenshot of the tool here.
+![Screenshot](https://novapackages.com//storage/screenshots/hHicZudoRFkJn2hTYg9EPpRAGtxOwvYoMlH5DmzX.png)
 
 ## Installation
 
@@ -37,7 +35,7 @@ public function tools()
 
 ## Usage
 
-Click on the "nova-setting-tool" menu item in your Nova app to see the tool provided by this package.
+Click on the "Settings" menu item in your Nova app to see the tool provided by this package.
 
 ## Testing
 
@@ -56,25 +54,6 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 ## Security
 
 If you discover any security related issues, please email me@cendekiapp.com instead of using the issue tracker.
-
-## Postcardware
-
-You're free to use this package, but if it makes it to your production environment we highly appreciate you sending us a postcard from your hometown, mentioning which of our package(s) you are using.
-
-Our address is: Spatie, Samberstraat 69D, 2060 Antwerp, Belgium.
-
-We publish all received postcards [on our company website](https://spatie.be/en/opensource/postcards).
-
-## Credits
-
-- [Cendekia Pramana Putra](https://github.com/cendekia)
-
-## Support us
-
-Spatie is a webdesign agency based in Antwerp, Belgium. You'll find an overview of all our open source projects [on our website](https://spatie.be/opensource).
-
-Does your business depend on our contributions? Reach out and support us on [Patreon](https://www.patreon.com/spatie). 
-All pledges will be dedicated to allocating workforce on maintenance and new awesome stuff.
 
 ## License
 
