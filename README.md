@@ -43,6 +43,17 @@ public function tools()
 
 Click on the "Settings" menu item in your Nova app to see the tool provided by this package.
 
+
+## Todo :
+
+- [x] Edit application title
+- [x] Edit version of application
+- [x] Edit copyright text
+- [ ] Edit default logo
+- [ ] Edit theme color
+- [ ] TBA
+
+
 ## Testing
 
 ``` bash
