@@ -1,13 +1,1 @@
-.tabs-component {
-  margin: 1em 0;
-}
-
-.tabs-component-panels {
-  border-top-left-radius: 6px;
-  padding: 6px 0 0 0;
-}
-
-.tabs-component-tab {
-  border-radius: 6px 6px 0 0;
-}
-
+.tabs-component{margin:1em 0}.tabs-component-panels{border-top-left-radius:6px;padding:6px 0 0}.tabs-component-tab{border-radius:6px 6px 0 0}
