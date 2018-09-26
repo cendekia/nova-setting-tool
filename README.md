@@ -17,6 +17,12 @@ You can install the package in to a Laravel app that uses [Nova](https://nova.la
 composer require cendekia/nova-setting-tool
 ```
 
+And you need to publish the migration file (this come from unisharp/laravel-settings):
+
+```bash
+php artisan vendor:publish --tag=settings
+```
+
 Next up, you must register the tool with Nova. This is typically done in the `tools` method of the `NovaServiceProvider`.
 
 ```php
