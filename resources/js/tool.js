@@ -1,4 +1,4 @@
-import {Tabs, Tab} from 'vue-tabs-component';
+import {Tabs, Tab} from 'vue-tabs-component'
 
 Nova.booting((Vue, router) => {
     router.addRoutes([
@@ -8,5 +8,8 @@ Nova.booting((Vue, router) => {
             component: require('./components/Tool'),
         },
     ])
+
+    Vue.component('tabs', Tabs);
+    Vue.component('tab', Tab);
 })
 
