@@ -14,7 +14,7 @@ return [
     ],
     'admin' => [
         'name' => config('nova.name'),
-        'url' => config('nova.url'),
+        'url' => config('nova.url').config('nova.path'),
         'copyright' => [
             'year' => date('Y'),
             'owner' => 'Laravel LLC',
