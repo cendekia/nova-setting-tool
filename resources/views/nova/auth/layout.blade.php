@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ Setting::get('admin.name') ?? env('ADMIN_NAME') }}</title>
+    <title>{{ Setting::get('admin.name') ?? config('nova_setting.admin.name') }}</title>
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,800,800i,900,900i" rel="stylesheet">
 
     <!-- Styles -->
-    <link rel="stylesheet" href="{{ asset('/nova-assets/app.css') }}">
+    <link rel="stylesheet" href="{{ mix('app.css', 'vendor/nova') }}">
 </head>
 <body class="bg-40 text-black h-full">
     <div class="h-full">
