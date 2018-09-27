@@ -17,6 +17,15 @@
                             </div>
                             <div class="flex border-b border-40">
                                 <div class="w-1/4 px-8 py-6">
+                                    <label class="inline-block text-80 h-9 pt-2">Site Url</label>
+                                    <p class="text-sm leading-normal text-80 italic"></p>
+                                </div>
+                                <div class="w-3/4 px-8 py-6">
+                                    <input :value="app.url" placeholder="Application url" type="text" class="w-full form-control form-input form-input-bordered" disabled>
+                                </div>
+                            </div>
+                            <div class="flex border-b border-40">
+                                <div class="w-1/4 px-8 py-6">
                                     <label class="inline-block text-80 h-9 pt-2">Copyright</label>
                                     <p class="text-sm leading-normal text-80 italic"></p>
                                 </div>
@@ -62,6 +71,15 @@
                                 </div>
                                 <div class="w-3/4 px-8 py-6">
                                     <input v-model="admin.name" placeholder="Admin panel name" type="text" class="w-full form-control form-input form-input-bordered">
+                                </div>
+                            </div>
+                            <div class="flex border-b border-40">
+                                <div class="w-1/4 px-8 py-6">
+                                    <label class="inline-block text-80 h-9 pt-2">Admin Url</label>
+                                    <p class="text-sm leading-normal text-80 italic"></p>
+                                </div>
+                                <div class="w-3/4 px-8 py-6">
+                                    <input :value="admin.url" placeholder="Admin panel url" type="text" class="w-full form-control form-input form-input-bordered" disabled>
                                 </div>
                             </div>
                             <div class="flex border-b border-40">

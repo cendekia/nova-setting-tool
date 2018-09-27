@@ -25,6 +25,7 @@ class BaseController
      * @var string
      */
     protected $statusCode = 200;
+
     /**
      * Undocumented function.
      *

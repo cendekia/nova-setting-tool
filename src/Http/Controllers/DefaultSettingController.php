@@ -24,6 +24,11 @@ class DefaultSettingController extends BaseController
                 'app' => $this->tool->get('app') ?? config('nova_setting.app'),
                 'admin' => $this->tool->get('admin') ?? config('nova_setting.admin'),
             ];
+
+            // hack to prevent url from being edited
+            $this->setting['app']['url'] = config('nova_setting.app.url');
+            $this->setting['admin']['url'] = config('nova_setting.admin.url');
+
         } catch (\Exception $e) {
             $this->message = "Uh-oh, unable to load setting.";
             $this->statusCode = 400;
