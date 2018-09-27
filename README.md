@@ -71,6 +71,10 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 If you discover any security related issues, please email me@cendekiapp.com instead of using the issue tracker.
 
+## Support
+
+Buy me a cup of ☕ americano on the rocks. [Patreon](https://www.patreon.com/cendekia)
+
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
