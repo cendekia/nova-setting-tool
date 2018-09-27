@@ -6,8 +6,7 @@
 [![Quality Score](https://img.shields.io/scrutinizer/g/cendekia/nova-setting-tool.svg?style=flat-square)](https://scrutinizer-ci.com/g/cendekia/nova-setting-tool)
 [![Total Downloads](https://img.shields.io/packagist/dt/cendekia/nova-setting-tool.svg?style=flat-square)](https://packagist.org/packages/cendekia/nova-setting-tool)
 
-
-![Screenshot](https://novapackages.com//storage/screenshots/hHicZudoRFkJn2hTYg9EPpRAGtxOwvYoMlH5DmzX.png)
+![Screenshot](https://i.imgur.com/XhheWYv.png)
 
 ## Installation
 
