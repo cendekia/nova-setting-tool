@@ -1,10 +1,12 @@
-# An app setting manager tool for laravel nova
+# Nova Setting Tool
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/cendekia/nova-setting-tool.svg?style=flat-square)](https://packagist.org/packages/cendekia/nova-setting-tool)
 ![CircleCI branch](https://img.shields.io/circleci/project/github/cendekia/nova-setting-tool/master.svg?style=flat-square)
 [![Build Status](https://img.shields.io/travis/cendekia/nova-setting-tool/master.svg?style=flat-square)](https://travis-ci.org/cendekia/nova-setting-tool)
 [![Quality Score](https://img.shields.io/scrutinizer/g/cendekia/nova-setting-tool.svg?style=flat-square)](https://scrutinizer-ci.com/g/cendekia/nova-setting-tool)
 [![Total Downloads](https://img.shields.io/packagist/dt/cendekia/nova-setting-tool.svg?style=flat-square)](https://packagist.org/packages/cendekia/nova-setting-tool)
+
+A Laravel Nova package that can change the basic admin panel settings, i.e app title, copyright texts, app version and etc by overriding the default Laravel Nova template which hopefully could help developer when starting their projects without having doing simple stuffs over and over again.
 
 ![Screenshot](https://i.imgur.com/XhheWYv.png)
 
