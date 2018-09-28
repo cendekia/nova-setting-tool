@@ -6,13 +6,13 @@
 [![Quality Score](https://img.shields.io/scrutinizer/g/cendekia/nova-setting-tool.svg?style=flat-square)](https://scrutinizer-ci.com/g/cendekia/nova-setting-tool)
 [![Total Downloads](https://img.shields.io/packagist/dt/cendekia/nova-setting-tool.svg?style=flat-square)](https://packagist.org/packages/cendekia/nova-setting-tool)
 
-A Laravel Nova package that can change the basic admin panel settings, i.e app title, copyright texts, app version and etc by overriding the default Laravel Nova template which hopefully could help developer when starting their projects without having doing simple stuffs over and over again.
+A Laravel Nova package that can change the basic admin panel settings, i.e app title, copyright texts, app version and etc by overriding the default Laravel Nova template which hopefully could help developer when starting their projects without having doing simple stuff over and over again.
 
 ![Screenshot](https://i.imgur.com/XhheWYv.png)
 
 ## Installation
 
-You can install the package in to a Laravel app that uses [Nova](https://nova.laravel.com) via composer:
+You can install the package into a Laravel app that uses [Nova](https://nova.laravel.com) via composer:
 
 ```bash
 composer require cendekia/nova-setting-tool
