@@ -2,6 +2,7 @@
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/cendekia/nova-setting-tool.svg?style=flat-square)](https://packagist.org/packages/cendekia/nova-setting-tool)
 [![Build Status](https://img.shields.io/travis/cendekia/nova-setting-tool/master.svg?style=flat-square)](https://travis-ci.org/cendekia/nova-setting-tool)
+[![StyleCI](https://github.styleci.io/repos/149705913/shield?branch=master)](https://github.styleci.io/repos/149705913)
 [![Total Downloads](https://img.shields.io/packagist/dt/cendekia/nova-setting-tool.svg?style=flat-square)](https://packagist.org/packages/cendekia/nova-setting-tool)
 
 A Laravel Nova package that can change the basic admin panel settings, i.e app title, copyright texts, app version and etc by overriding the default Laravel Nova template which hopefully could help developer when starting their projects without having doing simple stuff over and over again.
