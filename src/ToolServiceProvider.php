@@ -2,12 +2,11 @@
 
 namespace Cendekia\SettingTool;
 
-use Cendekia\SettingTool\Http\Middleware\Authorize;
+use Laravel\Nova\Nova;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\ServiceProvider;
-use Laravel\Nova\Events\ServingNova;
-use Laravel\Nova\Nova;
+use Cendekia\SettingTool\Http\Middleware\Authorize;
 
 class ToolServiceProvider extends ServiceProvider
 {
@@ -44,7 +43,6 @@ class ToolServiceProvider extends ServiceProvider
                 ->prefix('nova-vendor/setting-tool')
                 ->group(__DIR__.'/../routes/api.php');
     }
-
 
     /**
      * Register any application services.

@@ -21,4 +21,3 @@ Route::get('/installation-check', function (Request $request) {
 Route::get('/install-setting', 'Cendekia\SettingTool\Http\Controllers\InstallationController@run');
 Route::get('/default-setting', 'Cendekia\SettingTool\Http\Controllers\DefaultSettingController@run');
 Route::put('/update-setting', 'Cendekia\SettingTool\Http\Controllers\UpdateSettingController@run');
-

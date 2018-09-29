@@ -2,10 +2,6 @@
 
 namespace Cendekia\SettingTool\Http\Controllers;
 
-use Cendekia\SettingTool\Http\Controllers\BaseController;
-use Cendekia\SettingTool\Migrations\AlterSettingTableMigration;
-use Illuminate\Support\Facades\Schema;
-use Illuminate\Support\Facades\Artisan;
 use Unisharp\Setting\Setting;
 
 class UpdateSettingController extends BaseController
@@ -16,8 +12,9 @@ class UpdateSettingController extends BaseController
     {
         $this->tool = $tool;
     }
+
     /**
-     * Update setting
+     * Update setting.
      * @return void
      */
     protected function process($request): void
@@ -31,9 +28,9 @@ class UpdateSettingController extends BaseController
                 'admin' => $this->tool->get('admin') ?? config('nova_setting.admin'),
             ];
 
-            $this->message = "The setting was updated. The page will refresh in few seconds...";
+            $this->message = 'The setting was updated. The page will refresh in few seconds...';
         } catch (\Exception $e) {
-            $this->message = "Uh-oh, unable to update setting.";
+            $this->message = 'Uh-oh, unable to update setting.';
             $this->statusCode = 400;
         }
     }
