@@ -18,7 +18,6 @@
     ],
     "require": {
         "php": ">=7.1.0",
-        "laravel/nova": "~1.0",
         "unisharp/laravel-settings": "^2.0",
         "doctrine/dbal": "^2.8"
     },
