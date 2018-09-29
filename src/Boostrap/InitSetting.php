@@ -2,6 +2,6 @@
 
 namespace Cendekia\SettingTool\Bootstrap;
 
-class InitSetting {
-
+class InitSetting
+{
 }
