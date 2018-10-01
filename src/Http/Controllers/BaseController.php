@@ -2,8 +2,8 @@
 
 namespace Cendekia\SettingTool\Http\Controllers;
 
-use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
+use Illuminate\Http\JsonResponse;
 
 class BaseController
 {
@@ -15,13 +15,13 @@ class BaseController
     protected $message = [];
 
     /**
-     * Response setting
+     * Response setting.
      * @var string
      */
     protected $setting;
 
     /**
-     * Response status
+     * Response status.
      * @var string
      */
     protected $statusCode = 200;
@@ -37,7 +37,7 @@ class BaseController
 
         return response()->json([
             'message' => $this->message,
-            'setting' => $this->setting
+            'setting' => $this->setting,
         ], $this->statusCode);
     }
 }

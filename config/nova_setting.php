@@ -7,10 +7,10 @@ return [
         'copyright' => [
             'year' => date('Y'),
             'owner' => 'John Doe',
-            'text' => 'All rights reserved'
+            'text' => 'All rights reserved',
         ],
-        'version' => "0.0.1",
-        'logo' => null
+        'version' => '0.0.1',
+        'logo' => null,
     ],
     'admin' => [
         'name' => config('nova.name'),
@@ -18,9 +18,9 @@ return [
         'copyright' => [
             'year' => date('Y'),
             'owner' => 'Laravel LLC',
-            'text' => 'By Taylor Otwell, David Hemphill, and Steve Schoger.'
+            'text' => 'By Taylor Otwell, David Hemphill, and Steve Schoger.',
         ],
         'version' => Laravel\Nova\Nova::version(),
-        'logo' => null
-    ]
+        'logo' => null,
+    ],
 ];
