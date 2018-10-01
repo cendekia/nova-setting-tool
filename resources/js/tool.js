@@ -6,7 +6,7 @@ Nova.booting((Vue, router) => {
             name: 'setting-tool',
             path: '/setting-tool',
             component: require('./components/Tool'),
-        },
+        }
     ])
 
     Vue.component('tabs', Tabs);
