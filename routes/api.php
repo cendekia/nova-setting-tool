@@ -1,6 +1,5 @@
 <?php
 
-use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,9 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/installation-check', function (Request $request) {
-    return response()->json(['installed' => Schema::hasTable('settings')]);
-});
+Route::get('/installation-check', 'Cendekia\SettingTool\Http\Controllers\InstallationCheckController@run');
 
 Route::get('/install-setting', 'Cendekia\SettingTool\Http\Controllers\InstallationController@run');
 Route::get('/default-setting', 'Cendekia\SettingTool\Http\Controllers\DefaultSettingController@run');
